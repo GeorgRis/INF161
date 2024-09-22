@@ -1,0 +1,1366 @@
+pasient_id,alder,kjønn,utdanning,inntekt,etnisitet
+1,62.84998,male,11.0,$11-$25k,other
+22,48.70398,male,16.0,,other
+25,29.36099,female,17.0,$25-$50k,white
+26,53.84,male,,under $11k,white
+29,30.10799,male,,,asian
+36,57.53299,female,14.0,under $11k,hispanic
+57,41.52197,male,18.0,>$50k,white
+61,70.81195,male,,,black
+63,64.23798,male,12.0,,white
+64,51.70999,male,,,asian
+74,45.61499,female,16.0,>$50k,white
+79,78.85297,female,,,white
+80,37.87,male,,,white
+82,31.702,female,14.0,,black
+90,64.98798,female,,,white
+94,52.50699,female,12.0,$11-$25k,white
+100,75.76196,male,,,white
+101,32.99899,female,19.0,$25-$50k,other
+113,67.49097,male,,,white
+116,56.13998,male,,,white
+117,63.76199,male,,,white
+121,48.07397,male,,,other
+124,85.29999,male,,,white
+128,68.12598,female,,,black
+130,41.87,male,,>$50k,white
+132,60.04398,female,12.0,under $11k,white
+137,50.23099,female,,,white
+166,52.668,female,,,white
+169,44.35898,male,12.0,$11-$25k,white
+179,42.92398,male,,,white
+184,47.633,female,,,asian
+200,77.09497,male,16.0,>$50k,white
+206,70.28094,male,,,white
+208,77.00494,female,,,white
+214,63.896,male,12.0,>$50k,hispanic
+223,74.06396,male,,,white
+237,70.48596,male,,,white
+240,88.69495,male,,>$50k,white
+244,72.19696,female,,,black
+267,53.922,female,16.0,$25-$50k,white
+285,57.58197,male,10.0,under $11k,white
+293,60.85699,female,,,white
+308,48.04398,male,18.0,,white
+320,65.97095,male,,,white
+325,43.85999,female,12.0,$11-$25k,hispanic
+330,53.125,male,8.0,$11-$25k,white
+338,82.245,female,,,white
+351,73.72998,male,,,white
+363,34.461,female,,,white
+364,47.33499,female,,,white
+368,73.90295,male,16.0,,white
+371,52.68997,male,,,white
+373,49.29999,male,,,white
+374,64.69299,male,12.0,$25-$50k,white
+375,61.67798,male,12.0,>$50k,white
+376,64.25195,male,6.0,,white
+378,29.71399,male,,,other
+388,68.91394,female,,,white
+405,41.02698,male,16.0,under $11k,white
+413,74.297,male,18.0,>$50k,white
+417,70.28094,male,,,white
+424,83.39496,male,13.0,$11-$25k,black
+433,68.45996,female,,under $11k,black
+434,52.52597,female,16.0,$11-$25k,black
+435,62.50198,male,4.0,$11-$25k,hispanic
+438,87.76697,female,16.0,under $11k,white
+449,50.57599,female,10.0,,white
+470,50.754,male,,,white
+498,70.03998,female,12.0,,white
+524,47.73398,male,15.0,under $11k,black
+538,52.67599,male,17.0,>$50k,white
+543,70.90997,male,18.0,,white
+572,75.50195,female,12.0,$11-$25k,white
+574,52.30698,male,12.0,$25-$50k,black
+587,90.32196,female,16.0,,white
+592,92.60199,female,13.0,$25-$50k,white
+593,59.69299,female,,,white
+596,62.35699,male,,,
+605,66.14099,male,16.0,>$50k,white
+607,69.94098,male,18.0,>$50k,white
+612,42.823,female,15.0,,white
+613,63.84097,female,14.0,$25-$50k,white
+624,50.439,male,12.0,under $11k,black
+626,66.37097,male,12.0,$25-$50k,white
+627,54.08899,female,12.0,$11-$25k,white
+632,43.64697,female,12.0,>$50k,white
+645,80.87598,female,14.0,$25-$50k,white
+646,63.38699,male,,,white
+648,71.45197,female,10.0,under $11k,white
+651,85.11694,male,8.0,$11-$25k,white
+657,70.93994,male,12.0,,asian
+660,59.10199,male,7.0,$25-$50k,hispanic
+674,65.02899,female,,,black
+692,42.45599,male,10.0,>$50k,hispanic
+700,76.97198,female,13.0,>$50k,black
+706,56.34998,female,12.0,under $11k,white
+708,51.18698,male,,,white
+715,45.22699,male,,,white
+733,58.05099,female,12.0,,black
+737,60.65399,male,,,white
+740,47.43298,male,14.0,$11-$25k,white
+741,36.29797,male,12.0,under $11k,white
+756,55.866,male,16.0,$25-$50k,white
+760,67.88495,male,18.0,$25-$50k,white
+762,64.51697,male,9.0,under $11k,white
+766,32.40198,female,17.0,$25-$50k,white
+770,70.125,female,,,white
+771,35.31799,female,,,black
+786,78.00995,male,,,white
+798,57.93597,male,,,white
+802,72.0,female,12.0,under $11k,black
+805,59.211,female,14.0,>$50k,white
+808,74.26398,male,14.0,>$50k,white
+815,50.64499,male,14.0,$11-$25k,white
+824,86.04199,male,12.0,under $11k,white
+825,80.646,female,13.0,under $11k,white
+828,70.59296,male,12.0,,asian
+849,54.02298,female,10.0,,white
+852,86.62799,male,12.0,under $11k,white
+878,44.32599,male,14.0,under $11k,black
+882,54.47498,male,16.0,>$50k,white
+895,67.71497,female,14.0,>$50k,white
+902,80.46295,male,16.0,>$50k,white
+904,35.26599,male,12.0,$11-$25k,white
+929,80.10095,female,16.0,$25-$50k,white
+942,47.96198,male,14.0,under $11k,white
+946,47.88498,female,,,black
+957,65.09497,female,18.0,,white
+958,67.39197,female,9.0,$11-$25k,black
+961,68.40796,female,,,white
+968,38.94299,female,12.0,under $11k,asian
+974,23.24199,female,16.0,under $11k,white
+975,84.91394,male,16.0,,white
+1005,75.67999,male,16.0,$25-$50k,white
+1021,70.04498,female,9.0,under $11k,black
+1025,38.90997,female,11.0,,white
+1027,20.85399,male,15.0,>$50k,hispanic
+1029,42.09399,female,12.0,under $11k,black
+1041,60.504,male,13.0,under $11k,white
+1054,75.16797,female,14.0,$25-$50k,asian
+1058,29.77399,male,12.0,$25-$50k,white
+1065,79.71497,female,12.0,>$50k,white
+1072,58.53,female,,,asian
+1081,29.53,female,15.0,$11-$25k,asian
+1112,66.27496,male,14.0,,black
+1125,45.80197,female,16.0,>$50k,hispanic
+1131,47.93399,female,16.0,$25-$50k,asian
+1132,77.28998,male,12.0,$11-$25k,white
+1135,69.79895,female,16.0,$11-$25k,white
+1153,42.24197,male,13.0,under $11k,white
+1155,87.48798,male,,,white
+1163,73.26996,female,4.0,under $11k,white
+1165,61.37698,male,12.0,$25-$50k,white
+1167,66.91595,male,12.0,$11-$25k,white
+1170,27.187,male,12.0,,hispanic
+1180,52.36099,male,14.0,under $11k,white
+1182,77.53595,male,,,white
+1187,46.56799,male,,,white
+1199,41.33899,male,,,white
+1208,35.379,female,18.0,>$50k,white
+1209,50.59799,male,14.0,$11-$25k,white
+1222,57.36099,female,14.0,$11-$25k,other
+1228,51.461,female,,,white
+1229,59.95297,male,12.0,$11-$25k,white
+1230,77.29999,female,12.0,>$50k,white
+1242,53.06198,female,,,asian
+1254,68.32599,male,19.0,>$50k,white
+1292,55.13797,male,14.0,,white
+1307,64.34796,male,14.0,,hispanic
+1308,52.02698,male,14.0,>$50k,white
+1321,60.01398,male,16.0,>$50k,white
+1322,34.53799,female,12.0,>$50k,hispanic
+1326,73.10895,female,,,asian
+1334,66.98999,female,12.0,under $11k,white
+1338,70.04199,male,12.0,$11-$25k,white
+1341,73.90594,male,,,white
+1345,70.41797,female,14.0,,hispanic
+1357,31.403,female,21.0,>$50k,white
+1361,64.02197,male,,,white
+1366,46.04199,female,,,white
+1384,67.89294,female,12.0,$25-$50k,white
+1385,58.24197,male,12.0,$11-$25k,white
+1408,77.74396,female,18.0,under $11k,white
+1409,72.05194,male,12.0,under $11k,hispanic
+1410,61.49799,female,12.0,,white
+1416,52.31998,male,16.0,>$50k,white
+1430,55.32898,male,14.0,>$50k,white
+1435,59.55099,male,,,white
+1436,65.30298,male,16.0,,white
+1439,70.56494,female,20.0,,white
+1441,35.17297,male,12.0,$11-$25k,hispanic
+1444,56.56097,male,16.0,>$50k,white
+1448,36.33099,male,,,white
+1460,52.24899,male,,$11-$25k,white
+1467,48.375,female,19.0,>$50k,white
+1473,30.53799,male,16.0,$25-$50k,white
+1484,56.00299,male,10.0,,white
+1493,44.89297,female,12.0,>$50k,white
+1507,68.51196,male,14.0,under $11k,black
+1509,75.28296,female,,,white
+1511,30.97899,male,12.0,,hispanic
+1528,58.32999,female,8.0,under $11k,white
+1535,62.32397,female,12.0,$11-$25k,white
+1563,60.26599,female,12.0,$25-$50k,black
+1576,60.69299,male,15.0,,white
+1580,63.53998,male,10.0,$25-$50k,hispanic
+1585,59.31,male,15.0,>$50k,white
+1592,61.13599,male,12.0,,white
+1595,65.81,male,15.0,,black
+1599,34.14398,female,,,white
+1609,70.80396,female,12.0,,white
+1614,93.75494,female,12.0,,white
+1615,63.48499,female,12.0,$11-$25k,black
+1617,84.10095,female,8.0,under $11k,white
+1624,46.74597,female,16.0,,white
+1630,57.11697,male,12.0,>$50k,white
+1632,71.90094,male,15.0,,white
+1635,71.45197,female,10.0,under $11k,black
+1636,76.15094,male,12.0,,white
+1642,79.67694,female,14.0,under $11k,white
+1656,73.91095,male,,under $11k,white
+1660,61.98499,male,20.0,$11-$25k,white
+1662,85.85596,male,,,white
+1665,69.435,male,12.0,>$50k,white
+1672,81.40997,female,12.0,under $11k,white
+1675,65.06494,male,12.0,$11-$25k,white
+1682,50.59,male,17.0,>$50k,white
+1683,73.336,female,12.0,under $11k,white
+1685,52.49597,male,12.0,>$50k,white
+1708,89.487,female,12.0,,white
+1712,71.54297,female,12.0,under $11k,white
+1721,91.67694,male,14.0,under $11k,white
+1731,68.27698,male,16.0,,white
+1732,68.64099,female,12.0,,white
+1735,67.409,male,,,white
+1741,50.396,female,5.0,,black
+1746,61.48099,female,4.0,$11-$25k,white
+1748,79.64996,male,15.0,under $11k,white
+1777,80.72296,female,,,white
+1778,60.35599,male,,,white
+1782,69.76898,female,12.0,,white
+1793,77.56097,female,12.0,under $11k,hispanic
+1800,75.086,male,10.0,,white
+1803,57.21799,male,7.0,,white
+1806,61.01599,male,14.0,$11-$25k,white
+1808,61.63397,male,8.0,under $11k,white
+1821,75.07996,female,5.0,under $11k,white
+1822,54.66397,female,12.0,,white
+1824,75.12695,female,9.0,,white
+1839,78.25598,female,,,white
+1848,82.32697,male,,,white
+1859,65.87799,female,14.0,>$50k,white
+1863,71.66595,female,14.0,>$50k,white
+1864,70.31897,female,12.0,$25-$50k,white
+1872,77.36896,male,10.0,$11-$25k,white
+1877,87.13995,female,,,white
+1883,48.05698,female,19.0,>$50k,white
+1891,27.228,male,,,white
+1897,64.66498,female,15.0,under $11k,white
+1904,71.30695,female,12.0,under $11k,white
+1914,66.53296,male,9.0,$11-$25k,white
+1925,84.80499,female,14.0,$25-$50k,white
+1933,74.83398,female,12.0,under $11k,white
+1939,69.06195,female,12.0,under $11k,white
+1964,70.20099,male,14.0,$25-$50k,white
+1968,73.25397,male,12.0,,white
+1969,71.32898,female,,,white
+1972,64.77795,male,10.0,,white
+1974,83.61896,male,16.0,under $11k,white
+1989,78.245,female,,under $11k,white
+2004,60.79398,male,12.0,,black
+2008,65.46997,female,12.0,$11-$25k,white
+2016,59.27197,female,12.0,$25-$50k,white
+2021,57.79898,male,,,white
+2023,69.21594,male,,,white
+2024,49.87299,female,14.0,,white
+2029,52.57797,female,11.0,under $11k,white
+2036,77.42896,male,,,
+2041,73.487,female,12.0,,black
+2047,68.19995,female,14.0,>$50k,white
+2051,34.51297,male,12.0,,white
+2052,85.54999,male,,,white
+2062,55.896,female,14.0,,
+2069,84.758,female,,,white
+2084,96.29297,male,12.0,under $11k,white
+2087,79.43097,female,19.0,$11-$25k,white
+2094,55.31799,female,12.0,under $11k,white
+2099,60.40799,female,,under $11k,white
+2100,77.15497,male,,,white
+2108,86.17096,female,,,white
+2114,64.72296,female,12.0,$11-$25k,white
+2117,74.61694,female,,,white
+2120,78.60596,male,18.0,,white
+2121,43.38898,male,12.0,,black
+2122,59.34799,male,12.0,>$50k,white
+2128,83.11597,male,,,white
+2130,65.92999,male,16.0,$25-$50k,white
+2137,79.27698,female,10.0,under $11k,white
+2139,41.52197,male,11.0,,white
+2157,84.48199,male,6.0,$11-$25k,white
+2164,52.504,female,12.0,,white
+2174,79.66095,female,15.0,,white
+2192,72.10095,male,12.0,$11-$25k,white
+2196,54.33499,female,9.0,under $11k,black
+2203,87.61096,male,8.0,under $11k,white
+2209,89.83698,female,13.0,$11-$25k,white
+2219,38.448,female,12.0,under $11k,white
+2223,55.93198,female,14.0,,black
+2226,62.48599,female,,,white
+2247,74.65796,female,8.0,under $11k,white
+2252,39.61899,female,,,white
+2257,76.271,female,16.0,,white
+2275,55.06897,male,12.0,,other
+2277,84.72595,female,,under $11k,white
+2283,79.96399,male,8.0,under $11k,white
+2284,78.60394,female,7.0,under $11k,white
+2287,63.59799,male,,,white
+2290,78.87195,male,14.0,$11-$25k,white
+2292,85.30597,female,12.0,$25-$50k,white
+2293,77.23999,male,12.0,$11-$25k,white
+2305,85.06195,female,12.0,under $11k,white
+2306,55.42499,male,12.0,,black
+2310,87.72296,female,16.0,under $11k,white
+2317,52.27698,female,14.0,$11-$25k,white
+2318,66.50195,male,12.0,,white
+2322,64.29596,female,,,white
+2323,62.987,female,,,black
+2345,76.849,female,12.0,under $11k,white
+2350,67.948,female,12.0,$25-$50k,white
+2353,85.85394,female,12.0,,white
+2354,95.50995,male,15.0,$11-$25k,white
+2355,61.57199,female,,,white
+2357,65.88599,male,12.0,under $11k,white
+2361,78.32196,male,16.0,$11-$25k,white
+2372,63.625,female,12.0,under $11k,white
+2387,84.51996,female,13.0,$11-$25k,white
+2388,71.88794,male,14.0,,white
+2392,54.36798,male,12.0,,white
+2396,72.81,female,12.0,under $11k,white
+2399,66.97095,female,12.0,,white
+2419,74.40399,female,16.0,>$50k,white
+2423,58.46698,male,19.0,>$50k,white
+2436,75.15399,female,12.0,>$50k,white
+2438,43.44998,male,14.0,$25-$50k,white
+2443,91.16797,female,14.0,$11-$25k,white
+2455,79.76996,male,11.0,$11-$25k,white
+2464,72.82098,male,16.0,>$50k,white
+2468,49.94098,male,,,white
+2470,73.185,male,12.0,>$50k,white
+2475,56.85999,female,12.0,under $11k,white
+2490,72.25494,male,,,black
+2493,30.29999,female,15.0,>$50k,black
+2497,62.09198,male,12.0,,white
+2503,82.55396,female,14.0,,white
+2505,80.02698,female,12.0,,white
+2509,67.45795,female,14.0,under $11k,white
+2513,81.85095,male,12.0,under $11k,white
+2515,72.35895,male,12.0,,white
+2516,83.49896,male,16.0,>$50k,white
+2533,42.98199,male,16.0,>$50k,white
+2539,42.74597,male,16.0,>$50k,white
+2545,89.70795,female,12.0,under $11k,white
+2547,23.33499,female,13.0,under $11k,white
+2548,57.629,female,12.0,$11-$25k,white
+2549,83.75397,female,,,white
+2556,64.28198,female,12.0,under $11k,white
+2562,78.94598,male,,,white
+2563,43.42499,male,11.0,under $11k,black
+2582,77.86694,female,8.0,under $11k,white
+2583,32.84598,female,,under $11k,hispanic
+2590,72.81,female,14.0,$11-$25k,white
+2594,62.11899,male,17.0,$25-$50k,white
+2597,64.01398,female,12.0,under $11k,black
+2599,73.599,male,16.0,$11-$25k,white
+2600,76.08795,male,11.0,,black
+2604,53.46997,female,12.0,under $11k,white
+2611,90.448,female,12.0,$25-$50k,white
+2635,76.91699,male,5.0,$11-$25k,black
+2638,70.28894,male,,,white
+2655,77.74695,female,12.0,$11-$25k,white
+2657,40.17499,female,16.0,$25-$50k,white
+2660,86.89398,female,9.0,,white
+2661,67.26099,male,,,white
+2666,88.53699,female,16.0,>$50k,white
+2672,81.13599,female,12.0,,white
+2680,73.758,female,10.0,under $11k,white
+2681,88.23297,female,12.0,,white
+2684,76.92798,female,12.0,,white
+2692,50.12997,male,12.0,,other
+2711,63.23297,male,9.0,,white
+2712,37.16599,male,12.0,,white
+2722,70.20898,male,12.0,$25-$50k,white
+2726,71.17896,female,16.0,$25-$50k,black
+2733,40.745,male,17.0,$11-$25k,white
+2743,87.71497,male,,,white
+2746,71.74799,female,16.0,,white
+2747,32.75598,female,17.0,under $11k,white
+2758,79.68195,female,,,white
+2776,58.34598,male,16.0,>$50k,white
+2781,66.00397,female,13.0,$11-$25k,hispanic
+2786,93.008,female,12.0,,white
+2788,64.52795,female,9.0,under $11k,white
+2793,52.89499,female,16.0,$25-$50k,white
+2799,76.35297,male,12.0,,white
+2801,78.44995,male,12.0,,white
+2821,83.23596,female,14.0,>$50k,white
+2823,34.47198,female,17.0,$25-$50k,white
+2828,51.38898,male,13.0,$11-$25k,white
+2846,71.625,male,12.0,under $11k,white
+2853,78.05597,female,12.0,under $11k,white
+2863,72.31995,female,10.0,$11-$25k,other
+2875,44.32898,female,18.0,$25-$50k,white
+2882,85.97095,female,14.0,under $11k,white
+2894,73.04596,female,13.0,under $11k,white
+2898,75.63599,male,12.0,$11-$25k,white
+2904,83.07495,female,14.0,$11-$25k,white
+2911,79.82794,female,14.0,,white
+2915,51.86298,male,12.0,$25-$50k,white
+2928,78.18195,female,11.0,under $11k,white
+2935,36.44897,female,,,white
+2938,58.70999,male,,,white
+2957,52.405,male,14.0,under $11k,white
+2958,41.202,female,,,white
+2964,47.379,male,,,white
+2974,74.70996,female,8.0,$11-$25k,white
+2978,66.58496,male,12.0,under $11k,white
+2979,86.10797,male,,,white
+2988,35.13998,female,15.0,>$50k,white
+2989,77.862,female,15.0,$11-$25k,white
+2990,79.59198,female,12.0,$25-$50k,white
+2994,84.57794,male,22.0,,white
+2998,63.76999,male,22.0,>$50k,white
+3004,78.70795,female,18.0,$11-$25k,white
+3005,82.80096,male,11.0,$11-$25k,white
+3025,59.03098,female,,,white
+3048,74.54095,male,17.0,,white
+3050,31.75899,female,14.0,>$50k,white
+3058,46.06699,male,16.0,$25-$50k,hispanic
+3063,90.84198,female,,,white
+3071,67.38696,female,12.0,$11-$25k,white
+3086,70.21497,female,12.0,,white
+3088,70.44995,female,,,white
+3092,77.32794,male,16.0,$25-$50k,white
+3095,74.06195,male,14.0,$25-$50k,white
+3097,83.65198,female,,,
+3103,63.71799,female,8.0,,white
+3106,67.797,male,12.0,$25-$50k,white
+3108,76.49597,male,10.0,,white
+3116,99.198,female,12.0,under $11k,white
+3124,85.00195,male,16.0,>$50k,white
+3129,73.69495,female,12.0,under $11k,white
+3138,66.32196,female,,,white
+3160,79.75598,male,12.0,$25-$50k,white
+3164,69.76294,female,10.0,under $11k,white
+3166,73.28998,female,12.0,,white
+3169,91.68799,male,12.0,,black
+3179,68.98297,female,12.0,$11-$25k,white
+3187,47.20099,male,18.0,>$50k,white
+3191,86.07794,female,8.0,,white
+3192,82.96198,female,9.0,under $11k,white
+3194,60.85999,male,12.0,under $11k,white
+3205,29.517,male,19.0,under $11k,white
+3206,41.90799,male,12.0,$25-$50k,white
+3216,71.56195,female,12.0,,white
+3220,77.42896,male,9.0,under $11k,white
+3225,47.45798,male,10.0,under $11k,white
+3249,33.73297,female,10.0,under $11k,white
+3251,49.85098,male,11.0,,white
+3253,68.01398,female,1.0,,other
+3258,48.827,female,12.0,under $11k,white
+3265,55.13797,male,14.0,$25-$50k,white
+3281,39.31,male,13.0,,black
+3291,69.48895,female,5.0,$11-$25k,white
+3293,69.30597,female,12.0,$11-$25k,white
+3294,44.31998,female,11.0,under $11k,black
+3301,66.53796,male,,,white
+3307,77.77399,male,,,white
+3309,51.362,male,,,black
+3311,65.53595,male,,,white
+3314,74.84198,female,8.0,under $11k,white
+3317,67.92096,male,11.0,$11-$25k,white
+3332,49.87799,female,15.0,under $11k,black
+3338,51.63898,male,12.0,$11-$25k,white
+3345,68.0,female,8.0,under $11k,white
+3348,55.36499,male,12.0,$11-$25k,white
+3357,73.57697,female,6.0,under $11k,black
+3362,49.12299,male,12.0,$25-$50k,white
+3367,44.60498,male,,,black
+3384,70.69397,male,11.0,under $11k,white
+3385,62.806,male,10.0,$25-$50k,white
+3388,76.33099,female,,,black
+3396,42.95697,male,12.0,$11-$25k,white
+3397,61.38797,female,16.0,>$50k,white
+3400,80.41595,female,13.0,under $11k,white
+3402,80.44098,male,12.0,$11-$25k,white
+3405,63.211,male,,,white
+3407,38.784,male,,,white
+3416,60.30399,male,12.0,$11-$25k,black
+3419,68.19196,male,9.0,under $11k,white
+3420,77.98798,female,,under $11k,white
+3422,50.40097,male,14.0,$11-$25k,other
+3437,82.89697,male,3.0,under $11k,black
+3442,83.92596,male,7.0,under $11k,white
+3452,62.03998,male,9.0,$25-$50k,white
+3456,26.834,female,14.0,$11-$25k,black
+3459,43.03897,male,14.0,$25-$50k,white
+3467,21.405,female,12.0,$11-$25k,white
+3468,62.83899,female,3.0,under $11k,black
+3469,62.004,female,8.0,under $11k,black
+3471,78.84698,male,,,black
+3479,59.58398,female,,,white
+3484,55.62799,male,13.0,$11-$25k,white
+3493,68.64899,female,8.0,under $11k,white
+3512,61.00497,male,6.0,,white
+3517,47.39999,female,15.0,>$50k,white
+3526,60.01599,male,,,white
+3528,39.34598,female,12.0,under $11k,black
+3534,61.32498,male,,,white
+3548,59.75098,male,2.0,under $11k,white
+3550,43.09097,male,12.0,$11-$25k,white
+3561,40.81598,male,16.0,$25-$50k,white
+3589,20.605,female,12.0,,black
+3594,69.08398,male,,,black
+3600,65.24597,male,,,white
+3605,83.33997,male,16.0,under $11k,black
+3608,45.14398,male,7.0,,black
+3613,69.39398,female,8.0,under $11k,white
+3614,51.61398,female,12.0,,white
+3623,69.93799,male,8.0,under $11k,black
+3628,70.88599,male,12.0,under $11k,white
+3633,77.18799,male,2.0,,other
+3662,69.17694,male,15.0,>$50k,white
+3666,52.375,female,13.0,under $11k,black
+3671,54.44199,male,,,white
+3677,45.36899,female,12.0,$25-$50k,white
+3679,51.56699,male,,,white
+3687,54.995,male,13.0,$25-$50k,white
+3696,72.12299,male,12.0,under $11k,black
+3716,46.133,male,12.0,$11-$25k,white
+3722,62.853,male,16.0,>$50k,white
+3728,72.64899,female,7.0,under $11k,black
+3738,79.33997,female,14.0,$11-$25k,white
+3743,21.043,female,15.0,$25-$50k,white
+3746,66.87695,male,5.0,$11-$25k,black
+3749,79.82196,male,5.0,,black
+3752,61.58499,female,12.0,$25-$50k,white
+3763,62.70798,male,14.0,$25-$50k,white
+3768,58.97598,male,16.0,,white
+3779,63.422,male,12.0,$25-$50k,white
+3782,68.20496,female,16.0,,white
+3793,47.51797,female,12.0,$25-$50k,white
+3794,28.211,male,12.0,,black
+3797,72.81897,male,12.0,under $11k,white
+3800,65.01794,male,14.0,>$50k,white
+3809,63.31299,male,,,white
+3819,36.78,male,12.0,under $11k,white
+3822,44.71198,female,10.0,under $11k,black
+3835,46.20099,male,16.0,,white
+3836,46.80099,female,12.0,$25-$50k,white
+3855,43.50699,male,9.0,$11-$25k,white
+3860,63.88498,male,12.0,under $11k,white
+3864,39.98898,male,11.0,$11-$25k,black
+3868,72.82996,male,26.0,$25-$50k,white
+3869,38.63397,male,11.0,$11-$25k,white
+3878,53.04898,female,,,other
+3887,50.95999,female,16.0,,white
+3894,70.89398,female,11.0,$25-$50k,white
+3899,30.795,female,,,white
+3913,61.15298,male,4.0,under $11k,white
+3919,56.81598,female,9.0,under $11k,white
+3923,75.07495,male,11.0,$25-$50k,white
+3941,19.85199,male,,,white
+3946,41.629,male,8.0,$11-$25k,white
+3947,40.452,male,12.0,,black
+3953,48.30698,male,,,white
+3959,76.61597,male,7.0,under $11k,white
+3964,80.60498,male,24.0,$25-$50k,white
+3967,75.35699,male,9.0,under $11k,black
+3969,48.728,male,,,black
+3970,66.80597,male,12.0,$11-$25k,white
+3972,40.99899,male,11.0,,black
+3974,66.64496,female,,,black
+3983,52.70898,female,10.0,under $11k,white
+3984,31.28299,female,12.0,,white
+3985,57.21597,female,14.0,,white
+3989,59.29898,male,14.0,$25-$50k,white
+3996,89.23199,male,4.0,under $11k,black
+3998,65.62396,male,3.0,,black
+4000,60.646,male,,,white
+4024,62.30298,male,11.0,,white
+4040,72.797,female,12.0,,white
+4044,40.92499,female,12.0,>$50k,white
+4048,46.702,female,15.0,>$50k,white
+4050,80.45197,female,16.0,,white
+4052,68.39996,male,7.0,under $11k,black
+4058,64.698,male,12.0,$11-$25k,white
+4073,25.67,male,16.0,,white
+4079,60.46799,male,,,white
+4081,68.45197,female,12.0,,white
+4100,60.38898,male,14.0,,white
+4109,72.849,male,,,black
+4113,61.133,male,16.0,$25-$50k,white
+4123,53.22098,female,10.0,$25-$50k,white
+4125,69.04297,female,7.0,,white
+4148,57.47299,female,12.0,,white
+4162,48.51999,male,12.0,$25-$50k,white
+4178,62.37598,male,19.0,>$50k,white
+4183,72.97998,male,,,black
+4187,81.07599,male,7.0,under $11k,white
+4188,83.90997,female,14.0,$11-$25k,white
+4193,65.32794,male,17.0,>$50k,white
+4200,53.13898,male,12.0,,white
+4208,42.215,female,12.0,,black
+4209,33.66699,male,9.0,under $11k,white
+4211,43.88998,male,20.0,$11-$25k,white
+4213,54.56799,male,0.0,,black
+4240,70.12195,female,,,black
+4243,47.918,male,10.0,under $11k,black
+4252,60.89297,female,12.0,,white
+4257,77.42596,male,12.0,$11-$25k,white
+4260,82.52698,male,5.0,under $11k,black
+4261,64.961,female,11.0,under $11k,black
+4263,69.21594,female,9.0,under $11k,white
+4264,56.37198,male,17.0,,white
+4268,88.172,male,,,white
+4269,49.711,female,8.0,,white
+4275,29.62099,female,12.0,>$50k,white
+4278,55.491,female,15.0,$25-$50k,white
+4281,44.909,male,12.0,,white
+4290,80.68994,female,6.0,$11-$25k,white
+4296,59.38397,male,8.0,under $11k,white
+4306,74.25598,female,12.0,$25-$50k,white
+4307,64.12897,male,12.0,$11-$25k,white
+4318,25.114,female,15.0,$11-$25k,black
+4327,82.53497,female,14.0,,white
+4328,84.23499,male,,,black
+4333,62.20099,male,12.0,,white
+4334,47.95297,male,12.0,under $11k,white
+4354,67.49298,male,15.0,$25-$50k,white
+4355,58.50198,male,,,white
+4362,67.89294,male,12.0,,white
+4370,81.68396,male,12.0,$11-$25k,white
+4371,65.53894,male,8.0,under $11k,black
+4374,51.46597,female,8.0,$25-$50k,white
+4379,22.116,female,12.0,$11-$25k,black
+4404,49.52197,female,14.0,$25-$50k,white
+4410,74.57397,female,12.0,under $11k,white
+4420,71.02496,female,13.0,,black
+4421,55.22498,male,,,black
+4433,47.09399,female,17.0,,white
+4438,19.866,female,12.0,$25-$50k,white
+4445,60.84299,female,12.0,,white
+4452,46.349,female,14.0,$11-$25k,white
+4453,33.56598,female,13.0,$25-$50k,white
+4461,100.67896,male,8.0,under $11k,black
+4462,84.13995,female,,,white
+4465,72.31494,female,3.0,under $11k,black
+4468,68.13696,female,12.0,>$50k,white
+4470,79.034,male,5.0,$11-$25k,white
+4471,69.60699,female,13.0,under $11k,white
+4472,72.00494,female,6.0,,white
+4479,79.60596,female,,under $11k,white
+4486,74.06696,female,18.0,$25-$50k,white
+4497,54.74298,male,12.0,$25-$50k,white
+4516,47.37299,female,16.0,,black
+4517,67.53699,male,,under $11k,black
+4518,59.76199,male,6.0,$11-$25k,black
+4525,63.84698,male,20.0,>$50k,white
+4532,41.92697,female,12.0,$25-$50k,white
+4546,72.99097,male,12.0,,black
+4548,19.96199,female,12.0,$25-$50k,black
+4561,74.52399,male,12.0,$11-$25k,white
+4563,66.59497,female,14.0,,hispanic
+4567,49.5,female,12.0,>$50k,white
+4576,59.34598,male,0.0,$11-$25k,black
+4581,66.93799,male,12.0,$25-$50k,white
+4592,58.09998,male,,,white
+4595,66.44995,female,,,black
+4601,27.13799,male,16.0,,white
+4606,49.383,female,,,white
+4612,75.56195,male,6.0,,white
+4636,72.32898,female,12.0,under $11k,white
+4646,57.61298,male,12.0,$25-$50k,white
+4649,92.31995,female,12.0,,white
+4651,56.41098,male,6.0,under $11k,white
+4653,76.42395,male,11.0,under $11k,black
+4658,72.83795,male,12.0,,white
+4670,73.22095,female,12.0,under $11k,white
+4681,61.89697,male,,under $11k,white
+4691,63.685,female,,,white
+4703,72.93597,male,7.0,under $11k,white
+4705,44.64297,female,12.0,under $11k,other
+4721,45.142,female,7.0,under $11k,other
+4724,68.0,female,11.0,,white
+4729,63.95297,female,12.0,,white
+4736,64.96399,male,12.0,$11-$25k,white
+4737,53.63397,female,14.0,$11-$25k,white
+4746,69.008,male,11.0,$25-$50k,white
+4755,46.65598,male,16.0,,black
+4757,56.75598,male,12.0,$25-$50k,white
+4766,64.61896,male,,,white
+4776,58.01498,female,6.0,under $11k,other
+4777,58.20898,male,13.0,,white
+4790,33.94897,female,9.0,under $11k,white
+4791,80.51495,female,14.0,,white
+4792,64.61298,male,12.0,,white
+4804,78.52997,male,16.0,$11-$25k,white
+4823,50.76199,female,,,black
+4826,79.58099,male,,,white
+4834,56.24597,female,14.0,$11-$25k,white
+4844,36.84097,female,12.0,under $11k,black
+4846,61.06497,male,20.0,,white
+4851,49.21799,male,12.0,under $11k,white
+4852,56.36697,male,14.0,$25-$50k,white
+4857,58.52197,male,12.0,under $11k,white
+4860,44.44098,female,10.0,under $11k,black
+4864,57.34198,male,,,black
+4868,70.77594,female,12.0,$11-$25k,white
+4877,76.12299,male,,,white
+4879,79.31799,male,12.0,$11-$25k,white
+4883,51.504,female,11.0,$25-$50k,white
+4904,55.05499,male,24.0,>$50k,white
+4908,75.28796,female,14.0,under $11k,white
+4931,62.80899,female,12.0,$25-$50k,white
+4936,76.85999,female,14.0,$11-$25k,white
+4940,50.36798,female,18.0,$11-$25k,black
+4941,55.16199,female,,,white
+4951,59.461,female,10.0,$25-$50k,white
+4960,42.27499,female,12.0,,black
+4967,55.61398,male,12.0,$25-$50k,white
+4972,63.83298,female,,,white
+4985,73.47595,female,,,white
+4986,21.092,male,12.0,$11-$25k,white
+4998,54.08899,male,12.0,under $11k,black
+4999,20.31799,female,13.0,$11-$25k,white
+5016,72.72797,male,8.0,,white
+5022,75.82495,female,,under $11k,black
+5029,65.37396,female,12.0,>$50k,white
+5038,76.97998,male,21.0,>$50k,white
+5042,75.65198,female,,,white
+5044,70.71899,male,13.0,under $11k,white
+5045,64.55896,male,,,other
+5047,75.23895,male,13.0,$25-$50k,white
+5073,33.59299,female,14.0,$11-$25k,black
+5089,69.64294,female,12.0,under $11k,white
+5091,70.34399,male,5.0,under $11k,black
+5103,72.02997,male,3.0,under $11k,black
+5104,60.90298,male,8.0,$11-$25k,white
+5105,46.38998,female,,under $11k,black
+5113,55.26099,male,12.0,$11-$25k,white
+5117,66.935,male,,,white
+5128,68.08197,female,,under $11k,black
+5131,37.20697,male,9.0,,black
+5132,83.29895,female,8.0,under $11k,black
+5147,65.03796,male,11.0,$11-$25k,white
+5150,74.86395,female,14.0,$25-$50k,white
+5157,92.73096,female,,$11-$25k,black
+5163,55.85999,female,12.0,under $11k,white
+5182,73.10596,female,7.0,$25-$50k,white
+5186,60.66498,male,7.0,under $11k,white
+5204,55.29398,male,,,white
+5209,42.41998,female,18.0,$25-$50k,black
+5218,45.16397,female,,,black
+5220,61.56598,female,12.0,,white
+5229,62.41199,male,12.0,$11-$25k,black
+5232,50.63397,male,12.0,under $11k,black
+5240,58.34598,male,12.0,$11-$25k,white
+5241,52.86499,female,,,black
+5246,78.47998,female,12.0,,white
+5250,58.793,male,5.0,,other
+5251,52.42999,male,13.0,>$50k,white
+5252,70.612,male,10.0,,black
+5260,81.31995,male,12.0,$25-$50k,white
+5263,70.97894,male,0.0,under $11k,black
+5266,70.07794,male,8.0,,white
+5273,79.65796,female,12.0,,white
+5278,47.702,male,4.0,under $11k,white
+5291,68.10394,male,12.0,,white
+5295,41.93799,male,,,white
+5303,46.612,female,12.0,under $11k,white
+5306,48.71698,male,9.0,under $11k,black
+5311,53.72998,female,12.0,under $11k,black
+5312,68.91699,female,8.0,$11-$25k,white
+5313,68.211,male,,,white
+5324,76.96399,male,7.0,$11-$25k,black
+5331,43.34598,female,14.0,>$50k,white
+5344,47.80298,male,10.0,under $11k,white
+5346,46.90198,male,11.0,under $11k,black
+5347,84.60199,female,12.0,$25-$50k,white
+5348,64.48999,female,12.0,,white
+5362,72.64099,male,14.0,$25-$50k,white
+5369,44.85699,male,12.0,,white
+5371,39.034,male,,,black
+5375,63.46899,male,6.0,under $11k,white
+5383,64.33398,male,11.0,under $11k,white
+5391,56.31198,male,12.0,>$50k,white
+5392,51.63599,female,12.0,$11-$25k,black
+5394,62.52197,male,16.0,>$50k,white
+5395,52.68399,male,15.0,>$50k,white
+5406,53.26199,male,12.0,$25-$50k,white
+5411,69.224,male,16.0,,white
+5441,55.52597,female,12.0,,white
+5445,65.33099,male,18.0,>$50k,white
+5447,58.439,female,12.0,$25-$50k,white
+5458,31.22499,male,11.0,$25-$50k,white
+5472,27.29399,female,12.0,under $11k,black
+5475,75.90698,male,14.0,,white
+5480,86.50494,female,,$11-$25k,white
+5488,25.45099,female,17.0,,white
+5492,71.49597,male,4.0,under $11k,white
+5495,47.27399,female,12.0,under $11k,white
+5498,60.84097,female,9.0,$11-$25k,white
+5502,52.98297,male,18.0,>$50k,white
+5503,52.01898,male,15.0,$25-$50k,white
+5504,44.54999,male,12.0,$25-$50k,black
+5510,67.25,male,16.0,$11-$25k,white
+5518,78.85596,female,7.0,under $11k,white
+5532,36.33398,female,14.0,$25-$50k,hispanic
+5534,40.84097,male,14.0,under $11k,white
+5535,48.59097,male,16.0,$25-$50k,hispanic
+5536,71.00598,female,12.0,under $11k,white
+5537,62.92999,male,17.0,>$50k,black
+5539,64.98596,female,9.0,under $11k,black
+5553,47.89297,male,10.0,under $11k,black
+5577,51.01199,female,16.0,,asian
+5581,54.20398,male,6.0,$25-$50k,white
+5594,60.93597,female,12.0,$11-$25k,black
+5597,64.08197,female,6.0,,white
+5605,58.61697,male,0.0,under $11k,white
+5611,70.15997,male,,under $11k,black
+5613,44.60199,male,10.0,under $11k,white
+5617,54.20898,male,16.0,$11-$25k,white
+5619,44.10098,male,12.0,under $11k,white
+5621,81.85596,male,10.0,under $11k,white
+5628,49.52197,male,12.0,>$50k,white
+5631,36.06799,male,7.0,under $11k,black
+5638,66.54596,male,12.0,$11-$25k,white
+5639,63.75098,female,16.0,,white
+5642,57.29199,male,14.0,>$50k,white
+5653,61.26199,male,8.0,$25-$50k,white
+5662,51.06897,male,16.0,under $11k,hispanic
+5663,55.36798,male,1.0,under $11k,white
+5673,66.43695,male,,,white
+5682,49.54398,female,11.0,,black
+5692,95.53699,male,,,white
+5694,53.728,male,11.0,under $11k,black
+5697,39.90997,male,12.0,$11-$25k,black
+5702,58.55399,male,8.0,$25-$50k,white
+5704,68.70398,female,14.0,,white
+5705,62.52698,male,0.0,under $11k,black
+5710,61.89999,male,20.0,>$50k,white
+5714,76.82397,female,12.0,under $11k,white
+5716,70.66095,male,16.0,,white
+5719,72.73395,female,14.0,under $11k,black
+5720,72.80194,male,12.0,$11-$25k,white
+5721,70.68896,male,12.0,,white
+5727,64.05695,female,,,black
+5728,66.30499,female,2.0,under $11k,black
+5737,46.18799,female,,,black
+5747,74.935,male,16.0,,white
+5764,45.23199,male,12.0,$25-$50k,white
+5765,78.836,female,12.0,under $11k,black
+5779,56.38098,female,15.0,under $11k,white
+5782,75.92297,male,11.0,$11-$25k,white
+5786,42.49698,female,10.0,under $11k,white
+5796,71.22198,male,11.0,$11-$25k,white
+5802,73.28699,male,14.0,,white
+5803,70.461,male,,,white
+5817,51.836,female,12.0,under $11k,white
+5820,49.20499,female,10.0,under $11k,other
+5838,64.70099,female,,,white
+5840,78.35498,male,6.0,under $11k,white
+5847,68.48199,male,14.0,$11-$25k,white
+5852,19.82999,male,11.0,under $11k,white
+5875,57.35797,female,9.0,under $11k,white
+5885,61.28998,female,11.0,under $11k,white
+5897,74.21198,female,8.0,under $11k,white
+5909,67.10199,male,10.0,under $11k,black
+5913,32.85098,female,7.0,,black
+5919,55.12698,male,12.0,,white
+5931,58.086,male,,,white
+5940,78.45599,female,11.0,under $11k,white
+5945,42.46997,male,11.0,under $11k,white
+5948,67.10199,male,8.0,$11-$25k,black
+5961,61.25098,male,8.0,,white
+5967,35.09399,male,12.0,,white
+5986,36.392,male,14.0,$11-$25k,hispanic
+5990,38.86398,female,11.0,under $11k,black
+5996,72.55597,male,12.0,under $11k,white
+6000,63.00897,male,22.0,$25-$50k,white
+6002,57.435,female,,under $11k,black
+6005,57.91599,male,,under $11k,white
+6008,55.17297,male,,,white
+6012,19.44099,female,11.0,>$50k,white
+6016,68.69299,female,12.0,under $11k,white
+6022,65.55499,male,,,black
+6030,68.13098,female,13.0,under $11k,black
+6032,50.90198,male,10.0,under $11k,black
+6035,58.90997,male,8.0,$11-$25k,white
+6037,44.36697,female,9.0,under $11k,white
+6038,56.82397,male,12.0,under $11k,white
+6057,47.51297,male,12.0,under $11k,black
+6065,47.64999,male,12.0,,white
+6067,67.55896,male,,$11-$25k,white
+6082,64.849,female,12.0,under $11k,black
+6092,63.81897,male,,,black
+6095,65.94397,female,12.0,under $11k,black
+6103,77.62897,female,12.0,under $11k,white
+6104,63.159,male,2.0,under $11k,white
+6115,78.25897,female,,under $11k,white
+6118,76.13397,male,8.0,$11-$25k,white
+6119,42.034,male,12.0,under $11k,black
+6120,61.69998,male,4.0,under $11k,black
+6123,37.66699,male,7.0,under $11k,white
+6168,64.87897,male,12.0,$25-$50k,white
+6173,69.91394,male,,under $11k,white
+6174,34.905,female,12.0,under $11k,white
+6177,48.715,female,14.0,,white
+6178,53.16098,female,,,white
+6181,82.88599,male,,,white
+6183,64.41895,female,12.0,under $11k,white
+6186,56.22699,female,11.0,,black
+6188,59.96997,male,7.0,under $11k,white
+6189,59.63898,male,7.0,under $11k,black
+6195,43.49298,female,12.0,$11-$25k,white
+6196,54.63898,male,12.0,$25-$50k,white
+6214,54.92999,female,12.0,$25-$50k,white
+6217,84.08496,male,4.0,under $11k,white
+6219,34.53299,male,13.0,,white
+6233,57.771,male,8.0,under $11k,white
+6236,61.284,male,12.0,under $11k,white
+6238,55.86298,male,12.0,$11-$25k,white
+6242,45.89697,male,,,white
+6243,38.83398,female,12.0,under $11k,black
+6246,58.81998,male,10.0,under $11k,black
+6247,51.50198,female,11.0,under $11k,black
+6251,25.69699,male,12.0,under $11k,white
+6254,74.33496,male,12.0,under $11k,white
+6265,80.18298,male,12.0,under $11k,white
+6266,69.57697,female,11.0,$11-$25k,white
+6274,64.53699,male,9.0,$11-$25k,white
+6283,78.71295,female,7.0,under $11k,white
+6311,91.18994,female,8.0,under $11k,white
+6325,76.58899,female,6.0,under $11k,white
+6326,60.98599,male,8.0,$11-$25k,white
+6342,55.01199,female,9.0,,white
+6356,88.59998,female,5.0,,white
+6357,74.396,female,11.0,under $11k,white
+6363,42.09399,female,12.0,$25-$50k,white
+6364,37.51099,male,11.0,under $11k,black
+6376,27.61699,female,12.0,$11-$25k,white
+6389,41.45099,male,,,white
+6408,60.90298,male,18.0,>$50k,white
+6411,69.54095,male,10.0,under $11k,white
+6417,66.24799,female,11.0,under $11k,black
+6422,62.78699,male,,under $11k,white
+6425,68.698,male,,under $11k,white
+6433,53.57999,female,11.0,under $11k,black
+6438,49.86697,female,,,white
+6446,62.12198,male,12.0,under $11k,white
+6449,81.18298,male,12.0,under $11k,black
+6461,44.33899,male,8.0,under $11k,white
+6484,64.08496,female,11.0,under $11k,black
+6485,60.44397,male,14.0,$25-$50k,white
+6491,26.05299,male,14.0,$11-$25k,white
+6499,44.56097,male,11.0,$11-$25k,white
+6510,75.01398,male,9.0,$11-$25k,white
+6515,41.50897,female,12.0,$11-$25k,black
+6518,69.56897,male,16.0,under $11k,white
+6522,30.88599,male,16.0,,white
+6523,75.86597,female,6.0,under $11k,black
+6528,60.87097,male,8.0,under $11k,white
+6534,43.29099,male,10.0,under $11k,white
+6539,84.55298,female,,under $11k,white
+6541,79.77295,female,10.0,under $11k,white
+6546,62.73798,male,12.0,under $11k,black
+6553,64.11499,male,9.0,under $11k,white
+6558,48.04398,male,7.0,under $11k,white
+6568,31.24699,female,11.0,under $11k,black
+6574,28.23,female,14.0,under $11k,hispanic
+6593,54.98199,male,,under $11k,white
+6595,61.54099,male,8.0,under $11k,white
+6599,70.836,female,12.0,under $11k,white
+6600,44.35599,male,12.0,under $11k,white
+6614,80.26794,male,12.0,under $11k,white
+6626,67.86298,female,8.0,under $11k,black
+6629,63.64999,female,12.0,$11-$25k,white
+6635,68.56396,female,12.0,$11-$25k,white
+6654,81.45898,female,8.0,under $11k,white
+6665,57.55798,female,12.0,$25-$50k,white
+6676,85.35498,female,10.0,under $11k,white
+6688,50.702,male,12.0,,white
+6704,26.26099,male,,,black
+6705,70.79297,male,12.0,under $11k,white
+6721,71.78894,male,9.0,under $11k,white
+6730,71.04395,female,12.0,$25-$50k,white
+6733,61.84,female,11.0,under $11k,black
+6735,25.43199,female,12.0,$11-$25k,white
+6738,72.20795,female,14.0,under $11k,white
+6739,79.10699,male,8.0,,white
+6740,61.78198,male,,,white
+6744,58.349,female,9.0,under $11k,white
+6745,34.44199,male,15.0,,white
+6759,37.34998,male,,,white
+6762,59.86298,female,10.0,$25-$50k,white
+6768,80.21899,male,8.0,under $11k,hispanic
+6773,60.69299,female,13.0,$11-$25k,black
+6780,45.60699,male,11.0,under $11k,black
+6787,64.85999,male,12.0,$11-$25k,white
+6798,63.56198,female,16.0,$11-$25k,white
+6807,76.62695,female,12.0,under $11k,white
+6820,71.81396,female,10.0,$11-$25k,white
+6823,45.05698,male,10.0,under $11k,white
+6828,68.59399,male,7.0,under $11k,black
+6835,66.08899,female,11.0,$11-$25k,white
+6836,65.86395,male,,$11-$25k,white
+6839,77.87,female,0.0,under $11k,black
+6845,56.71698,male,,,white
+6851,78.05597,female,5.0,under $11k,black
+6855,67.68195,female,,under $11k,black
+6863,63.258,male,11.0,under $11k,white
+6870,78.76196,female,8.0,under $11k,white
+6875,37.71899,male,12.0,under $11k,black
+6896,66.88599,female,14.0,$25-$50k,white
+6906,49.47598,female,12.0,under $11k,white
+6910,71.37897,male,14.0,$25-$50k,white
+6911,72.06,male,14.0,$25-$50k,white
+6916,57.681,male,10.0,under $11k,black
+6918,82.12695,male,,,white
+6922,53.48898,female,10.0,$11-$25k,white
+6923,67.25494,male,12.0,under $11k,white
+6927,54.60098,male,9.0,under $11k,white
+6928,59.84698,female,8.0,under $11k,white
+6931,66.12695,male,9.0,$11-$25k,white
+6933,63.58398,male,8.0,under $11k,white
+6942,65.659,male,8.0,under $11k,black
+6948,41.83698,male,8.0,,white
+6951,65.24298,male,12.0,under $11k,white
+6958,61.78799,female,11.0,under $11k,black
+6960,76.79395,male,12.0,$25-$50k,white
+6980,94.48895,female,3.0,under $11k,black
+6981,41.65399,male,14.0,under $11k,white
+6991,26.95699,male,,,white
+6996,28.50899,female,12.0,under $11k,white
+6997,66.85797,male,12.0,$11-$25k,white
+7001,68.112,female,,,white
+7009,76.36395,female,10.0,,white
+7012,69.05695,male,5.0,under $11k,white
+7013,41.89697,male,12.0,$11-$25k,white
+7019,38.59799,female,12.0,$25-$50k,white
+7022,30.51599,female,12.0,,white
+7027,72.07098,male,10.0,,black
+7029,77.89697,male,8.0,under $11k,white
+7033,61.43997,male,,,white
+7034,58.20398,male,14.0,$11-$25k,white
+7035,69.45697,female,8.0,under $11k,white
+7074,63.13998,male,11.0,under $11k,white
+7079,72.62097,female,12.0,under $11k,white
+7084,23.452,male,10.0,under $11k,hispanic
+7087,66.5,male,14.0,$25-$50k,white
+7088,59.57797,female,11.0,under $11k,white
+7097,69.82898,male,12.0,$11-$25k,white
+7099,68.28198,female,12.0,$11-$25k,white
+7109,90.52399,female,5.0,under $11k,white
+7110,64.16699,female,14.0,under $11k,black
+7115,77.49799,female,10.0,under $11k,white
+7117,74.146,female,8.0,under $11k,white
+7129,38.54898,female,9.0,under $11k,white
+7138,58.30798,male,12.0,under $11k,white
+7139,79.12396,male,0.0,under $11k,white
+7149,71.474,male,5.0,under $11k,black
+7153,43.31799,female,11.0,>$50k,white
+7166,32.26599,female,12.0,under $11k,white
+7180,70.28296,female,7.0,under $11k,white
+7186,25.659,female,9.0,under $11k,white
+7198,70.66095,male,10.0,under $11k,white
+7205,45.02698,female,11.0,under $11k,white
+7209,34.93997,male,12.0,,black
+7210,70.62598,male,12.0,under $11k,black
+7211,57.84299,female,12.0,>$50k,white
+7222,81.32495,female,6.0,under $11k,black
+7229,37.18799,male,12.0,under $11k,white
+7233,39.33499,male,12.0,,white
+7234,61.99298,male,12.0,under $11k,white
+7240,61.629,male,,under $11k,hispanic
+7247,89.58795,female,,under $11k,black
+7251,49.99899,female,11.0,under $11k,black
+7264,74.49396,female,,,white
+7273,68.94995,male,12.0,$11-$25k,white
+7278,72.77197,male,9.0,under $11k,black
+7279,59.62997,female,12.0,under $11k,black
+7283,70.81195,female,9.0,under $11k,white
+7289,51.04199,female,,,hispanic
+7297,49.18799,male,12.0,under $11k,white
+7300,35.90399,female,10.0,$11-$25k,black
+7301,46.76199,male,12.0,$25-$50k,white
+7304,43.76999,male,10.0,under $11k,white
+7316,73.31396,male,,under $11k,white
+7317,74.66095,female,12.0,under $11k,white
+7323,82.24799,male,5.0,under $11k,black
+7327,30.935,male,11.0,under $11k,white
+7336,63.72598,female,9.0,,white
+7339,89.00494,male,8.0,under $11k,white
+7341,61.24597,male,11.0,under $11k,black
+7364,71.77295,male,16.0,$11-$25k,white
+7365,67.71497,female,12.0,under $11k,white
+7366,65.28094,male,8.0,$11-$25k,white
+7368,62.79498,male,12.0,under $11k,white
+7374,22.68599,female,15.0,under $11k,black
+7375,24.241,female,14.0,under $11k,white
+7378,68.37195,female,3.0,under $11k,black
+7386,52.71997,female,12.0,,white
+7388,30.508,male,12.0,$25-$50k,white
+7393,52.31998,male,16.0,$25-$50k,white
+7397,68.34796,male,12.0,$11-$25k,white
+7407,62.69098,female,13.0,>$50k,white
+7414,33.50598,female,12.0,>$50k,white
+7427,21.131,female,12.0,$11-$25k,black
+7435,74.27795,female,12.0,,white
+7442,53.15799,male,7.0,under $11k,white
+7445,42.43399,male,13.0,,white
+7453,84.646,female,4.0,under $11k,white
+7455,75.59796,female,11.0,under $11k,white
+7457,71.72095,male,,,white
+7459,64.23798,female,12.0,under $11k,black
+7460,32.76398,male,12.0,under $11k,black
+7464,62.02298,male,8.0,under $11k,white
+7469,73.19397,female,5.0,under $11k,black
+7485,63.34299,male,11.0,under $11k,black
+7487,38.58197,male,14.0,under $11k,white
+7499,64.16394,male,13.0,$25-$50k,white
+7501,72.81897,male,6.0,under $11k,white
+7506,64.99896,male,11.0,under $11k,white
+7522,61.03198,female,12.0,$11-$25k,white
+7527,31.55399,female,12.0,$11-$25k,hispanic
+7529,66.78699,female,10.0,under $11k,black
+7558,70.56799,male,9.0,under $11k,white
+7573,36.80798,male,12.0,under $11k,white
+7580,57.98499,female,12.0,$11-$25k,white
+7582,54.32397,male,12.0,under $11k,black
+7595,75.92297,male,11.0,,white
+7600,66.26398,male,8.0,under $11k,black
+7602,59.05798,male,16.0,>$50k,white
+7620,51.17297,female,9.0,under $11k,white
+7624,61.33298,female,8.0,under $11k,black
+7638,73.91595,female,10.0,under $11k,black
+7641,62.08099,female,12.0,,white
+7642,54.45599,male,11.0,under $11k,white
+7645,85.80194,female,12.0,under $11k,white
+7652,46.06198,female,12.0,under $11k,white
+7667,41.84,female,13.0,under $11k,white
+7677,69.06195,male,12.0,$11-$25k,white
+7688,47.09698,male,11.0,under $11k,hispanic
+7702,53.51999,female,9.0,under $11k,white
+7705,33.58798,male,10.0,under $11k,black
+7712,75.62799,male,12.0,under $11k,white
+7720,66.41797,male,12.0,$11-$25k,white
+7735,58.17398,female,9.0,under $11k,white
+7739,57.88397,male,12.0,$25-$50k,black
+7743,64.62994,male,16.0,$11-$25k,white
+7763,65.69196,male,,,white
+7765,83.30695,male,8.0,,white
+7769,72.33398,male,12.0,>$50k,white
+7775,34.83899,female,12.0,$25-$50k,white
+7782,75.56494,female,9.0,,white
+7783,63.12097,male,12.0,,white
+7787,59.02298,female,,,white
+7789,60.26297,male,12.0,,white
+7795,72.20795,female,,,white
+7803,52.45398,male,11.0,$11-$25k,white
+7813,38.18997,female,11.0,$11-$25k,white
+7814,60.52298,male,12.0,$25-$50k,white
+7816,51.62997,female,12.0,,white
+7821,64.64899,male,13.0,$11-$25k,white
+7825,47.15399,female,12.0,$25-$50k,white
+7829,74.78998,female,12.0,,white
+7838,76.65399,female,12.0,$11-$25k,white
+7846,57.71899,female,12.0,$11-$25k,white
+7854,68.93396,male,12.0,$11-$25k,white
+7859,84.75598,male,6.0,under $11k,white
+7865,62.543,male,12.0,$11-$25k,other
+7875,80.45697,male,18.0,,white
+7878,78.396,male,14.0,$25-$50k,white
+7883,54.98398,male,,,white
+7889,67.95099,female,4.0,under $11k,white
+7892,69.67596,male,8.0,,white
+7910,74.30298,male,,,white
+7926,64.74194,female,15.0,$11-$25k,white
+7934,61.42398,male,12.0,$11-$25k,white
+7936,70.78699,male,8.0,,white
+7940,56.68399,male,11.0,$25-$50k,white
+7943,75.422,male,14.0,$25-$50k,white
+7947,71.37598,male,12.0,under $11k,white
+7952,66.57599,female,10.0,,white
+7965,68.68396,male,12.0,under $11k,white
+7971,45.021,female,12.0,under $11k,white
+7998,66.47998,female,8.0,,white
+8011,66.97595,male,12.0,$25-$50k,white
+8016,72.745,male,,,white
+8020,50.50198,male,6.0,$11-$25k,white
+8021,73.02399,male,,,white
+8033,81.79895,female,16.0,under $11k,white
+8034,58.42599,male,,,white
+8037,75.18994,male,11.0,,white
+8040,78.17896,male,12.0,$11-$25k,white
+8041,83.71497,male,,,white
+8044,70.11597,female,,,white
+8054,75.12097,male,10.0,$11-$25k,white
+8059,60.50699,female,14.0,$25-$50k,white
+8064,50.92999,male,14.0,under $11k,white
+8068,73.52496,female,15.0,$11-$25k,white
+8072,77.32495,female,9.0,under $11k,white
+8076,54.83899,male,13.0,$25-$50k,white
+8077,78.00397,male,8.0,under $11k,white
+8088,69.27594,female,,,white
+8116,84.50098,male,11.0,,white
+8122,70.09399,male,8.0,,white
+8132,44.34799,female,12.0,under $11k,white
+8137,67.39996,male,20.0,under $11k,white
+8143,40.39697,male,16.0,$25-$50k,white
+8145,74.95697,male,15.0,$25-$50k,white
+8147,80.78894,male,7.0,under $11k,white
+8151,68.44897,male,,,white
+8157,72.56097,male,12.0,under $11k,white
+8170,63.12097,male,,,white
+8178,54.883,male,14.0,under $11k,white
+8179,70.57098,male,7.0,under $11k,white
+8184,58.883,male,6.0,$11-$25k,white
+8190,71.461,female,8.0,,white
+8193,59.49298,male,12.0,$25-$50k,white
+8195,70.11096,male,,,white
+8200,88.11499,male,5.0,,white
+8208,78.78998,male,,under $11k,white
+8217,79.36499,female,8.0,under $11k,white
+8227,77.35199,male,15.0,$25-$50k,white
+8246,67.86896,female,12.0,$11-$25k,white
+8267,69.44299,female,,,other
+8273,73.78796,female,12.0,under $11k,white
+8276,71.81897,female,16.0,under $11k,white
+8287,72.59998,male,10.0,under $11k,white
+8292,76.34796,male,10.0,under $11k,white
+8293,78.24799,female,12.0,under $11k,white
+8296,42.38998,male,10.0,$11-$25k,white
+8299,85.94696,male,16.0,under $11k,white
+8314,85.96295,female,8.0,,white
+8318,80.58295,male,,,white
+8319,53.81198,male,12.0,$11-$25k,white
+8327,60.62097,female,9.0,>$50k,white
+8339,57.952,male,7.0,$25-$50k,white
+8343,58.905,female,15.0,$25-$50k,white
+8344,52.90097,female,,,white
+8346,76.28998,male,12.0,$11-$25k,white
+8347,64.93097,female,10.0,under $11k,white
+8349,35.11298,female,12.0,$11-$25k,white
+8353,64.24396,male,12.0,,white
+8357,79.07697,male,11.0,under $11k,white
+8366,40.93597,female,12.0,$11-$25k,white
+8367,52.93597,male,13.0,>$50k,white
+8373,29.97899,male,14.0,under $11k,white
+8374,52.02197,female,,,white
+8380,60.53897,female,,,
+8390,63.22198,male,,,white
+8394,76.70599,male,11.0,under $11k,white
+8398,43.63898,male,12.0,$25-$50k,white
+8399,69.47797,female,14.0,$25-$50k,white
+8402,73.68695,male,12.0,under $11k,white
+8405,64.05695,male,10.0,,white
+8409,67.146,female,,,white
+8413,69.80194,male,8.0,under $11k,white
+8418,59.87698,male,12.0,$11-$25k,white
+8430,50.47198,male,12.0,,white
+8447,74.508,male,12.0,$11-$25k,white
+8449,66.80597,female,8.0,,white
+8463,66.02899,male,12.0,$11-$25k,white
+8468,56.67398,female,14.0,,white
+8472,75.79999,female,7.0,,white
+8473,63.93997,female,14.0,$11-$25k,white
+8474,70.70197,male,,,white
+8482,66.06396,male,8.0,under $11k,white
+8499,80.66498,female,12.0,$11-$25k,white
+8500,64.03595,male,8.0,under $11k,white
+8510,58.81198,male,20.0,,white
+8511,44.79099,male,12.0,$25-$50k,white
+8516,68.862,male,12.0,$25-$50k,white
+8519,58.62299,female,13.0,$11-$25k,white
+8527,21.60199,female,14.0,$11-$25k,white
+8530,88.20496,male,,under $11k,white
+8536,43.362,male,16.0,$25-$50k,white
+8542,70.84698,female,12.0,,hispanic
+8549,49.66699,female,12.0,>$50k,white
+8551,20.67899,female,18.0,$25-$50k,hispanic
+8559,34.491,female,12.0,$25-$50k,hispanic
+8569,82.97095,male,16.0,,white
+8570,43.38898,female,12.0,$25-$50k,white
+8585,78.62299,female,5.0,under $11k,white
+8587,72.51495,female,10.0,,white
+8588,74.54297,male,12.0,$11-$25k,white
+8593,74.39294,male,12.0,under $11k,white
+8596,79.90997,male,6.0,under $11k,white
+8597,86.80896,male,8.0,,white
+8602,70.02594,male,10.0,,white
+8614,72.86798,female,13.0,$11-$25k,white
+8616,59.88498,female,8.0,under $11k,white
+8617,52.42398,male,12.0,$25-$50k,white
+8623,73.98199,male,8.0,under $11k,white
+8626,60.008,male,14.0,,white
+8641,67.48499,female,,,white
+8642,75.85797,female,11.0,,white
+8653,71.86896,male,14.0,$11-$25k,white
+8661,79.16199,male,14.0,,hispanic
+8674,65.29999,male,10.0,$11-$25k,white
+8697,58.185,female,12.0,>$50k,white
+8701,79.65198,female,12.0,$11-$25k,white
+8710,78.18994,male,,,white
+8718,83.25494,female,16.0,$11-$25k,white
+8720,69.68396,male,12.0,$25-$50k,white
+8734,89.47797,female,13.0,,white
+8735,76.74695,male,8.0,under $11k,white
+8737,90.53497,male,5.0,,white
+8743,88.375,female,5.0,under $11k,white
+8746,65.11395,male,12.0,,white
+8749,79.37299,male,8.0,,white
+8753,50.93799,male,,,white
+8762,41.83197,female,12.0,$25-$50k,white
+8767,56.33899,male,8.0,,white
+8770,18.18999,female,11.0,,white
+8799,73.396,female,12.0,,white
+8805,73.73297,female,,under $11k,white
+8825,72.06598,male,8.0,$11-$25k,white
+8830,63.98898,male,,,white
+8831,83.31299,male,8.0,,white
+8834,58.59799,female,,,white
+8835,78.10498,female,5.0,under $11k,white
+8838,71.77295,male,10.0,,white
+8851,50.86099,male,14.0,,white
+8859,73.28998,female,8.0,under $11k,white
+8866,78.77594,female,8.0,,white
+8871,74.93994,male,8.0,$11-$25k,white
+8878,54.13797,male,12.0,$25-$50k,white
+8896,63.52597,male,12.0,$11-$25k,white
+8909,64.34998,female,,,white
+8912,66.29395,female,11.0,,white
+8913,54.91599,male,10.0,,white
+8917,71.72595,female,13.0,$11-$25k,white
+8923,68.64099,female,13.0,$11-$25k,white
+8934,78.89099,male,12.0,$25-$50k,white
+8936,74.74298,male,,,white
+8946,62.245,female,12.0,under $11k,white
+8949,70.52698,male,5.0,under $11k,white
+8964,81.14697,male,8.0,under $11k,white
+8969,63.90997,male,12.0,,white
+8976,88.112,female,11.0,under $11k,white
+8983,69.61298,female,12.0,,white
+8992,81.66699,male,12.0,$11-$25k,white
+8995,76.07697,male,12.0,$11-$25k,white
+9009,42.61499,male,12.0,,white
+9015,65.71399,male,11.0,$25-$50k,white
+9024,48.89798,female,,,white
+9025,58.26099,female,9.0,under $11k,white
+9033,75.737,female,,,white
+9049,77.69995,male,16.0,,white
+9050,61.09497,male,12.0,,white
+9078,62.84998,male,,,white
+9080,53.32498,male,12.0,$25-$50k,white
+9081,51.47998,male,12.0,under $11k,white
