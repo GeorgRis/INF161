@@ -6,7 +6,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Laster datasettet
-df = pd.read_csv('Lab-7\\titanic.csv')
+df = pd.read_csv('C:\\Users\\47476\\Downloads\\Info\\AIKI110\\INF161\\Lab-7\\titanic.csv')
 
 # Encoderer kategoriske variabler
 le = LabelEncoder()
