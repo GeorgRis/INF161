@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediksjonsside</title>
+</head>
+<body>
+    <h1>Prediksjon av oppholdslengde</h1>
+    <form action="/predict" method="POST">
+        <!-- Alder (float) -->
+        <label for="alder">Alder:</label>
+        <input type="number" step="0.01" id="alder" name="alder" required><br><br>
+
+        <!-- Kjønn (object) -->
+        <label for="kjønn">Kjønn:</label>
+        <select id="kjønn" name="kjønn" required>
+            <option value="M">Mann</option>
+            <option value="K">Kvinne</option>
+        </select><br><br>
+
+        <!-- Utdanning (float) -->
+        <label for="utdanning">Utdanning:</label>
+        <input type="number" step="0.01" id="utdanning" name="utdanning" required><br><br>
+
+        <!-- Inntekt (object) -->
+        <label for="inntekt">Inntekt:</label>
+        <input type="text" id="inntekt" name="inntekt" required><br><br>
+
+        <!-- Etnisitet (object) -->
+        <label for="etnisitet">Etnisitet:</label>
+        <select id="etnisitet" name="etnisitet" required>
+            <option value="white">White</option>
+            <option value="black">Black</option>
+            <option value="asian">Asian</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <!-- Sykehusdød (int) -->
+        <label for="sykehusdød">Sykehusdød (0 eller 1):</label>
+        <input type="number" id="sykehusdød" name="sykehusdød" required><br><br>
+
+        <!-- Blodtrykk (float) -->
+        <label for="blodtrykk">Blodtrykk:</label>
+        <input type="number" step="0.01" id="blodtrykk" name="blodtrykk" required><br><br>
+
+        <!-- Hvite blodlegemer (float) -->
+        <label for="hvite_blodlegemer">Hvite blodlegemer:</label>
+        <input type="number" step="0.01" id="hvite_blodlegemer" name="hvite_blodlegemer" required><br><br>
+
+        <!-- Hjertefrekvens (float) -->
+        <label for="hjertefrekvens">Hjertefrekvens:</label>
+        <input type="number" step="0.01" id="hjertefrekvens" name="hjertefrekvens" required><br><br>
+
+        <!-- Respirasjonsfrekvens (float) -->
+        <label for="respirasjonsfrekvens">Respirasjonsfrekvens:</label>
+        <input type="number" step="0.01" id="respirasjonsfrekvens" name="respirasjonsfrekvens" required><br><br>
+
+        <!-- Kroppstemperatur (float) -->
+        <label for="kroppstemperatur">Kroppstemperatur:</label>
+        <input type="number" step="0.01" id="kroppstemperatur" name="kroppstemperatur" required><br><br>
+
+        <!-- Lungefunksjon (float) -->
+        <label for="lungefunksjon">Lungefunksjon:</label>
+        <input type="number" step="0.01" id="lungefunksjon" name="lungefunksjon" required><br><br>
+
+        <!-- Serumalbumin (float) -->
+        <label for="serumalbumin">Serumalbumin:</label>
+        <input type="number" step="0.01" id="serumalbumin" name="serumalbumin" required><br><br>
+
+        <!-- Bilirubin (float) -->
+        <label for="bilirubin">Bilirubin:</label>
+        <input type="number" step="0.01" id="bilirubin" name="bilirubin" required><br><br>
+
+        <!-- Kreatinin (float) -->
+        <label for="kreatinin">Kreatinin:</label>
+        <input type="number" step="0.01" id="kreatinin" name="kreatinin" required><br><br>
+
+        <!-- Natrium (float) -->
+        <label for="natrium">Natrium:</label>
+        <input type="number" step="0.01" id="natrium" name="natrium" required><br><br>
+
+        <!-- Blod-pH (float) -->
+        <label for="blod_ph">Blod-pH:</label>
+        <input type="number" step="0.01" id="blod_ph" name="blod_ph" required><br><br>
+
+        <!-- Glukose (float) -->
+        <label for="glukose">Glukose:</label>
+        <input type="number" step="0.01" id="glukose" name="glukose" required><br><br>
+
+        <!-- Blodurea nitrogen (float) -->
+        <label for="blodurea_nitrogen">Blodurea nitrogen:</label>
+        <input type="number" step="0.01" id="blodurea_nitrogen" name="blodurea_nitrogen" required><br><br>
+
+        <!-- Urinmengde (float) -->
+        <label for="urinmengde">Urinmengde:</label>
+        <input type="number" step="0.01" id="urinmengde" name="urinmengde" required><br><br>
+
+        <!-- Sykdomskategori_id (object) -->
+        <label for="sykdomskategori_id">Sykdomskategori ID:</label>
+        <input type="text" id="sykdomskategori_id" name="sykdomskategori_id" required><br><br>
+
+        <!-- Sykdomskategori (object) -->
+        <label for="sykdomskategori">Sykdomskategori:</label>
+        <input type="text" id="sykdomskategori" name="sykdomskategori" required><br><br>
+
+        <!-- Dødsfall (int) -->
+        <label for="dødsfall">Dødsfall (0 eller 1):</label>
+        <input type="number" id="dødsfall" name="dødsfall" required><br><br>
+
+        <!-- Sykdom underkategori (object) -->
+        <label for="sykdom_underkategori">Sykdom underkategori:</label>
+        <input type="text" id="sykdom_underkategori" name="sykdom_underkategori" required><br><br>
+
+        <!-- Antall komorbiditeter (int) -->
+        <label for="antall_komorbiditeter">Antall komorbiditeter:</label>
+        <input type="number" id="antall_komorbiditeter" name="antall_komorbiditeter" required><br><br>
+
+        <!-- Koma score (float) -->
+        <label for="koma_score">Koma score:</label>
+        <input type="number" step="0.01" id="koma_score" name="koma_score" required><br><br>
+
+        <!-- ADL stedfortreder (float) -->
+        <label for="adl_stedfortreder">ADL stedfortreder:</label>
+        <input type="number" step="0.01" id="adl_stedfortreder" name="adl_stedfortreder" required><br><br>
+
+        <!-- Fysiologisk score (float) -->
+        <label for="fysiologisk_score">Fysiologisk score:</label>
+        <input type="number" step="0.01" id="fysiologisk_score" name="fysiologisk_score" required><br><br>
+
+        <!-- Apache fysiologisk score (float) -->
+        <label for="apache_fysiologisk_score">Apache fysiologisk score:</label>
+        <input type="number" step="0.01" id="apache_fysiologisk_score" name="apache_fysiologisk_score" required><br><br>
+
+        <!-- Overlevelsesestimat 2mnd (float) -->
+        <label for="overlevelsesestimat_2mnd">Overlevelsesestimat 2 måneder:</label>
+        <input type="number" step="0.01" id="overlevelsesestimat_2mnd" name="overlevelsesestimat_2mnd" required><br><br>
+
+        <!-- Overlevelsesestimat 6mnd (float) -->
+        <label for="overlevelsesestimat_6mnd">Overlevelsesestimat 6 måneder:</label>
+        <input type="number" step="0.01" id="overlevelsesestimat_6mnd" name="overlevelsesestimat_6mnd" required><br><br>
+
+        <!-- Diabetes (int) -->
+        <label for="diabetes">Diabetes (0 eller 1):</label>
+        <input type="number" id="diabetes" name="diabetes" required><br><br>
+
+        <!-- Demens (int) -->
+        <label for="demens">Demens (0 eller 1):</label>
+        <input type="number" id="demens" name="demens" required><br><br>
+
+        <!-- Kreft (object) -->
+        <label for="kreft">Kreft:</label>
+        <input type="text" id="kreft" name="kreft" required><br><br>
+
+        <!-- Lege overlevelsesestimat 2mnd (float) -->
+        <label for="lege_overlevelsesestimat_2mnd">Lege overlevelsesestimat 2 måneder:</label>
+        <input type="number" step="0.01" id="lege_overlevelsesestimat_2mnd" name="lege_overlevelsesestimat_2mnd" required><br><br>
+
+        <!-- Lege overlevelsesestimat 6mnd (float) -->
+        <label for="lege_overlevelsesestimat_6mnd">Lege overlevelsesestimat 6 måneder:</label>
+        <input type="number" step="0.01" id="lege_overlevelsesestimat_6mnd" name="lege_overlevelsesestimat_6mnd" required><br><br>
+
+        <!-- Send-knapp -->
+        <input type="submit" value="Send inn">
+    </form>
+</body>
+</html>
