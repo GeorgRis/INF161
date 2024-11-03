@@ -23,9 +23,15 @@
         <label for="utdanning">Utdanning:</label>
         <input type="number" step="0.01" id="utdanning" name="utdanning" required><br><br>
 
-        <!-- Inntekt (object) -->
+        <!-- Inntekt (mapped options) -->
         <label for="inntekt">Inntekt:</label>
-        <input type="text" id="inntekt" name="inntekt" required><br><br>
+        <select id="inntekt" name="inntekt" required>
+            <option value="under $11k">under $11k</option>
+            <option value="$11-$25k">$11-$25k</option>
+            <option value="$25-$50k">$25-$50k</option>
+            <option value=">$50k">$50k</option>
+        </select><br><br>
+
 
         <!-- Etnisitet (object) -->
         <label for="etnisitet">Etnisitet:</label>
@@ -96,9 +102,6 @@
         <label for="urinmengde">Urinmengde:</label>
         <input type="number" step="0.01" id="urinmengde" name="urinmengde" required><br><br>
 
-        <!-- Sykdomskategori_id (object) -->
-        <label for="sykdomskategori_id">Sykdomskategori ID:</label>
-        <input type="text" id="sykdomskategori_id" name="sykdomskategori_id" required><br><br>
 
         <!-- Sykdomskategori (object) -->
         <label for="sykdomskategori">Sykdomskategori:</label>
@@ -159,6 +162,15 @@
         <!-- Lege overlevelsesestimat 6mnd (float) -->
         <label for="lege_overlevelsesestimat_6mnd">Lege overlevelsesestimat 6 måneder:</label>
         <input type="number" step="0.01" id="lege_overlevelsesestimat_6mnd" name="lege_overlevelsesestimat_6mnd" required><br><br>
+
+        <!-- adl_pasient -->
+        <label for="adl_pasient">adl_pasient:</label>
+        <input type="number" step="0.01" id="adl_pasient" name="adl_pasient" required><br><br>
+
+        <!-- dnr_dag -->
+        <label for="dnr_dag">dnr_dag:</label>
+        <input type="dnr_dag" step="0.01" id="dnr_dag" name="dnr_dag" required><br><br>
+
 
         <!-- Send-knapp -->
         <input type="submit" value="Send inn">

@@ -12,19 +12,50 @@ def convert_to_str(x):
 with open("Prosjekt\\alt\\model.pkl", "rb") as model_file:
     best_model_pipeline_fill_zero = pickle.load(model_file)
 
+# Samme variabelutvinning som i datatilbredningen  
+# Funksjon for å lage aldersgrupper
+def kalk_alder_gruppe(alder):
+    return pd.cut([alder], bins=[0, 18, 30, 45, 60, 75, np.inf], labels=[0, 1, 2, 3, 4, 5])[0]
+
+# Funksjon for å mappe inntekt
+inntekt_mapping = {
+    "under $11k": 0,
+    "$11-$25k": 1,
+    "$25-$50k": 2,
+    ">$50k": 3
+}
+def map_inntekt(inntekt):
+    return inntekt_mapping.get(inntekt, np.nan)  # Setter til NaN hvis inntekt ikke finnes i mappingen
+
+# Funksjon for å beregne sosioøkonomisk status
+def kalk_sosiooekonomisk_status(inntekt, utdanning):
+    if pd.notnull(inntekt) and pd.notnull(utdanning):
+        return (inntekt + utdanning) / 2
+    return np.nan
+
+# Funksjon for overlevelsesestimat
+def kalk_overlevelses_proxy(overlevelsesestimat_2mnd, overlevelsesestimat_6mnd, lege_overlevelsesestimat_2mnd,
+                                 lege_overlevelsesestimat_6mnd, fysiologisk_score, apache_fysiologisk_score):
+    return np.mean([overlevelsesestimat_2mnd, overlevelsesestimat_6mnd, lege_overlevelsesestimat_2mnd,
+                    lege_overlevelsesestimat_6mnd, fysiologisk_score, apache_fysiologisk_score])
+
+# Funksjon for nyrefunksjonsproxy
+def kalk_nyrefunksjons_proxy(kreatinin, blodurea_nitrogen):
+    return np.mean([kreatinin, blodurea_nitrogen])
+
+
 # Funksjon for å konvertere og validere input
 def validate_and_prepare_input(data):
     try:
-        # Sjekk og konverter til riktig datatype
+        # Valider og konverter input som tidligere
         alder = float(data.get('alder'))
         kjønn = data.get('kjønn') 
         utdanning = float(data.get('utdanning'))
         inntekt = data.get('inntekt')
-        etnisitet = data.get('etnisitet')  # Valider valg mellom "white", "black", "asian", "other"
-        
-        if etnisitet not in ['white', 'black', 'asian', 'other']:
-            raise ValueError('Ugyldig verdi for etnisitet')
+        inntekt_mapped = map_inntekt(inntekt)
+        etnisitet = data.get('etnisitet')
 
+        # Andre variabler som valideres som før
         sykehusdød = int(data.get('sykehusdød'))
         blodtrykk = float(data.get('blodtrykk'))
         hvite_blodlegemer = float(data.get('hvite_blodlegemer'))
@@ -40,7 +71,6 @@ def validate_and_prepare_input(data):
         glukose = float(data.get('glukose'))
         blodurea_nitrogen = float(data.get('blodurea_nitrogen'))
         urinmengde = float(data.get('urinmengde'))
-        sykdomskategori_id = data.get('sykdomskategori_id')
         sykdomskategori = data.get('sykdomskategori')
         dødsfall = int(data.get('dødsfall'))
         sykdom_underkategori = data.get('sykdom_underkategori')
@@ -56,13 +86,24 @@ def validate_and_prepare_input(data):
         kreft = data.get('kreft')
         lege_overlevelsesestimat_2mnd = float(data.get('lege_overlevelsesestimat_2mnd'))
         lege_overlevelsesestimat_6mnd = float(data.get('lege_overlevelsesestimat_6mnd'))
+        adl_pasient = data.get('adl_pasient')
+        dnr_dag = data.get('dnr_dag')
 
-        # Lag en dictionary med kolonnenavnene modellen forventer
+        # Bruk variabelutvinningene
+        alder_gruppe = kalk_alder_gruppe(alder)
+        sosiooekonomisk_status = kalk_sosiooekonomisk_status(inntekt_mapped, utdanning)
+        overlevelses_proxy = kalk_overlevelses_proxy(
+            overlevelsesestimat_2mnd, overlevelsesestimat_6mnd, lege_overlevelsesestimat_2mnd,
+            lege_overlevelsesestimat_6mnd, fysiologisk_score, apache_fysiologisk_score
+        )
+        nyrefunksjons_proxy = kalk_nyrefunksjons_proxy(kreatinin, blodurea_nitrogen)
+
+        # Lag dictionary med kolonner modellen forventer
         input_data = {
             'alder': alder,
             'kjønn': kjønn,
             'utdanning': utdanning,
-            'inntekt': inntekt,
+            'inntekt': inntekt_mapped,
             'etnisitet': etnisitet,
             'sykehusdød': sykehusdød,
             'blodtrykk': blodtrykk,
@@ -79,7 +120,6 @@ def validate_and_prepare_input(data):
             'glukose': glukose,
             'blodurea_nitrogen': blodurea_nitrogen,
             'urinmengde': urinmengde,
-            'sykdomskategori_id': sykdomskategori_id,
             'sykdomskategori': sykdomskategori,
             'dødsfall': dødsfall,
             'sykdom_underkategori': sykdom_underkategori,
@@ -94,11 +134,17 @@ def validate_and_prepare_input(data):
             'demens': demens,
             'kreft': kreft,
             'lege_overlevelsesestimat_2mnd': lege_overlevelsesestimat_2mnd,
-            'lege_overlevelsesestimat_6mnd': lege_overlevelsesestimat_6mnd
+            'lege_overlevelsesestimat_6mnd': lege_overlevelsesestimat_6mnd,
+            'alder_gruppe': alder_gruppe,
+            'sosiooekonomisk_status': sosiooekonomisk_status,
+            'overlevelses_proxy': overlevelses_proxy,
+            'nyrefunksjons_proxy': nyrefunksjons_proxy,
+            'adl_pasient': adl_pasient,
+            'dnr_dag': dnr_dag 
         }
 
-        # Konverter input_data til en DataFrame
-        input_df = pd.DataFrame([input_data])  # Modellen forventer en DataFrame med disse kolonnene
+        # Konverter til DataFrame
+        input_df = pd.DataFrame([input_data])
         return input_df, True
 
     except ValueError as e:
@@ -117,6 +163,8 @@ def predict():
     # Valider og konverter input
     prepared_data, valid = validate_and_prepare_input(data)
 
+    print(prepared_data)
+    
     if not valid:
         return jsonify({"error": prepared_data}), 400  # Returner feilmelding ved feil input
 
