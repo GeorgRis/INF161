@@ -9,7 +9,7 @@ def convert_to_str(x):
     return x.astype(str)
 
 # Last inn den forhåndstrente modellen
-with open("Prosjekt\\alt\\model.pkl", "rb") as model_file:
+with open("model.pkl", "rb") as model_file:
     best_model_pipeline_fill_zero = pickle.load(model_file)
 
 # Samme variabelutvinning som i datatilbredningen  
